@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head><title>Extension Options</title></head>
+<head>
+  <script src="script.js"></script>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
 <body>
+  <div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+  <div class="row">
 
-Choose Actor:
-<select id="actor">
- <option value="Taika Waititi">Taika Waititi</option>
- <option value="Casey Affleck">Casey Affleck</option>
- <option value="Angela Bassett">Angela Bassett</option>
- <option value="Vincent Rodriguez">Vincent Rodriguez</option>
- <option value="Kevin Spacey">Kevin Spacey</option>
- <option value="Lucy Liu">Lucy Liu</option>
-</select>
+      <div class="col s4">
+        <!-- Promo Content 1 goes here -->
+        <i class="large material-icons">contacts</i>
+        <b>
+        <br />
+        Actors
+      </div>
+      <div class="col s4">
+        <!-- Promo Content 2 goes here -->
+        <i class="large material-icons">thumbs_up_down</i>
+        <b>
+        <br />
+        Predator or Not!!!
+      </div>
+      <div class="col s4">
+        <!-- Promo Content 3 goes here -->
+        <i class="large material-icons">movie_filter</i>
+        <b>
+        <br />
+        Movies
+      </div>
 
+    </div>
 
-<div id="status"></div>
-<button id="search">Search</button>
-
-<script src="options.js"></script>
+<!-- <form action="/search.php" method="post">
+  Actor/Actress Name:<br>
+  <br>
+  <input type="text" name="actorname" value=" ">
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+</form> -->
 </body>
 </html>
